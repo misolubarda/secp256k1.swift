@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'secp256k1.swift'
+  s.name             = 'secp256k1.swift-netis'
   s.version          = '0.1.5'
   s.summary          = 'secp256k1 bindings for swift. Cocoapods, Carthage and SPM support. Linux support.'
 
@@ -26,7 +26,7 @@ Bitcoin, Ethereum and many other Cryptocurrency Signature generation and verific
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Koray Koska' => 'koray@koska.at' }
-  s.source           = { :git => 'https://github.com/Boilertalk/secp256k1.swift.git', :tag => s.version.to_s, :submodules => true }
+  s.source           = { :git => 'https://github.com/misolubarda/secp256k1.swift.git', :tag => s.version.to_s, :submodules => true }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
