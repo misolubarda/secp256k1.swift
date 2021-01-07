@@ -14,7 +14,7 @@
 /* #undef COVERAGE */
 
 /* Define this symbol to enable the ECDH module */
-/* #undef ENABLE_MODULE_ECDH */
+#define ENABLE_MODULE_ECDH 1
 
 /* Define this symbol to enable the ECDSA pubkey recovery module */
 /* #undef ENABLE_MODULE_RECOVERY */
